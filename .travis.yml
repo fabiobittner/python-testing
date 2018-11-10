@@ -1,0 +1,11 @@
+# Travis CI configurion
+language: python
+python:
+- 2.7
+- 3.5
+- 3.6
+
+install:
+- pytest
+script:
+- pytest --doctest-modules --verbose
