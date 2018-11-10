@@ -6,6 +6,6 @@ python:
 - 3.6
 
 install:
-- pytest
+- pip install pytest
 script:
 - pytest --doctest-modules --verbose
